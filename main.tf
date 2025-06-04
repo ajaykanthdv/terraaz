@@ -41,7 +41,7 @@ resource "azurerm_storage_account" "storage" {
     owner       = "kloud"
   }
 }
-resource "azurerm_storage_account" "storage" {
+resource "azurerm_storage_account" "storage1" {
   name                     = "ajayterrac"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
