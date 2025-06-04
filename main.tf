@@ -10,7 +10,7 @@ terraform {
     organization = "infra_ajay"
 
     workspaces {
-      name = "develop"
+      name = "test1"
     }
   }
 }
