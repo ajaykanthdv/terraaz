@@ -26,8 +26,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "1-a0d7d0fe-playground-sandbox"
-  location = "westus"
+  name     = "1-17ea5dc0-playground-sandbox"
+  location = "southcentralus"
 }
 
 resource "azurerm_storage_account" "storage" {
